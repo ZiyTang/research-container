@@ -1,6 +1,6 @@
 # research-container
 
-This is an example of Dockerfile used for creating docker container. Docker is a very easy way to create environment on your computer system.
+This repository contains examples of Dockerfile used for creating docker container. Information of Docker could be found [here](https://en.wikipedia.org/wiki/Docker_(software))
 
 ## Prerequisites
 
