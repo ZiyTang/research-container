@@ -2,7 +2,7 @@
 
 This is an example of Dockerfile used for creating docker container. Docker is a very easy way to create environment on your computer system.
 
-### Prerequisites
+## Prerequisites
 
 To make use of docker, we need several steps for prerequisites:
 
@@ -10,15 +10,15 @@ To make use of docker, we need several steps for prerequisites:
 
 2. download [docker desktop](https://hub.docker.com/?overlay=onboarding).
 
-### Prepare an image and push it on dockerhub
+## Prepare an image and push it on dockerhub
 
 Although there is a good tutorial on docker desktop download website, we make a instruction here base on the docker tutorial and add several compensations.
 
-##### Dockerfile preparation
+### Dockerfile preparation
 
 Write your Dockerfile on [Github](https://github.com/) or anywhere you want, an example of Dockerfile could be found in this repository.
 
-##### Build a Docker image 
+### Build a Docker image 
 
 Build your docker image locally by:
 
@@ -40,7 +40,7 @@ Test your docker image locally by running:
 docker run <hub-user>/<repo-name>[:<tag>]
 ```
 
-##### Push a Docker image
+### Push a Docker image
 
 Push the docker image by:
 
@@ -48,7 +48,7 @@ Push the docker image by:
 docker push <hub-user>/<repo-name>[:<tag>]
 ``` 
 
-##### Run a Docker image
+### Run a Docker image
 
 You could run the docker image by:
 
@@ -58,7 +58,7 @@ docker run -it --rm <hub-user>/<repo-name>[:<tag>]
 
 The image would automatically pull if the image is not found locally.
 
-##### Manage local image
+### Manage local image
 
 Show a list of local image by:
 
