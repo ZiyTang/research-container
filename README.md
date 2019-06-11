@@ -27,7 +27,7 @@ cd <your-Dockerfile-path> &&
 docker build -t <TAG> .
 ```
 
-I highly recommand that the **<TAG>** should be in the form: <hub-user>/<repo-name>[:<tag>]. If you do not do like this, you may meet trouble when push the image. Default <tag> name will be latest.
+I highly recommand that the **<TAG>** should be in the form: ```<hub-user>/<repo-name>[:<tag>]```. If you do not do like this, you may meet trouble when push the image. Default ```<tag>``` name will be latest.
 
 If you create a docker with wrong tag, change the tag by: 
 
