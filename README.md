@@ -14,11 +14,11 @@ To make use of docker, we need several steps for prerequisites:
 
 Although there is a good tutorial on docker desktop download website, we make a instruction here base on the docker tutorial and add several compensations.
 
-1. Dockerfile preparation
+* Dockerfile preparation
 
 Write your Dockerfile on [Github](https://github.com/) or anywhere you want, an example of Dockerfile could be found in this repository.
 
-2. Build a Docker image 
+* Build a Docker image 
 
 Build your docker image locally by:
 
@@ -40,7 +40,7 @@ Test your docker image locally by running:
 docker run <hub-user>/<repo-name>[:<tag>]
 ```
 
-3. Push a Docker image
+* Push a Docker image
 
 Push the docker image by:
 
@@ -48,7 +48,7 @@ Push the docker image by:
 docker push <hub-user>/<repo-name>[:<tag>]
 ``` 
 
-4. Run a Docker image
+* Run a Docker image
 
 You could run the docker image by:
 
@@ -58,7 +58,7 @@ docker run -it --rm <hub-user>/<repo-name>[:<tag>]
 
 The image would automatically pull if the image is not found locally.
 
-5. Manage local image
+* Manage local image
 
 Show a list of local image by:
 
@@ -72,7 +72,7 @@ delete local image by:
 docker rmi <image id>
 ```
 
-of
+or
 
 ```bash
 docker rmi <hub-user>/<repo-name>[:<tag>]
