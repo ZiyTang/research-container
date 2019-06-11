@@ -1,6 +1,6 @@
 # research-container
 
-This repository contains examples of Dockerfile used for creating docker container. Information of Docker could be found [here](https://en.wikipedia.org/wiki/Docker_(software))
+This repository contains examples of Dockerfile used for creating docker container. Information of Docker could be found [here](https://en.wikipedia.org/wiki/Docker_(software)).
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ cd <your-Dockerfile-path> &&
 docker build -t <TAG> .
 ```
 
-I highly recommand that the ```<TAG>``` should be of the form: ```<hub-user>/<repo-name>[:<tag>]```, or you may meet trouble when pushing the image to dockerhub. Default ```<tag>``` name will be **latest**. If you create a docker with 'wrong' tag, change the tag by: 
+Please don't loss the last *dot* in the command. I highly recommand that the ```<TAG>``` should be of the form: ```<hub-user>/<repo-name>[:<tag>]```, or you may meet trouble when pushing the image to dockerhub. Default ```<tag>``` name will be **latest**. If you create a docker with 'wrong' tag, change the tag by: 
 
 ```bash
 docker tag <existing-image> <hub-user>/<repo-name>[:<tag>]
