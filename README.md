@@ -56,7 +56,7 @@ You could run the docker image by:
 docker run -it --rm <hub-user>/<repo-name>[:<tag>]
 ```
 
-The image would automatically pull if the image is not found locally.
+The image would automatically pull from dockerhub if the image is not found locally.
 
 ### Manage local image
 
